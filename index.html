@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BooRelax – Massage, Kosmetik & Friseur einfach buchen</title>
+  <meta name="description" content="BooRelax vermittelt dir die besten Dienstleister für Massage, Kosmetik und Friseur in deiner Nähe. Einfach buchen, entspannt genießen.">
+  <meta name="keywords" content="Massage buchen, Kosmetik buchen, Friseur buchen, Wellness, Dienstleistungen, BooRelax">
+  <meta name="author" content="BooRelax">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://boorelax.de/">
+  <meta property="og:title" content="BooRelax – Massage, Kosmetik & Friseur einfach buchen">
+  <meta property="og:description" content="Finde und buche die besten Dienstleister für Massage, Kosmetik und Friseur in deiner Nähe.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://boorelax.de/">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:site_name" content="BooRelax">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="BooRelax – Massage, Kosmetik & Friseur einfach buchen">
+  <meta name="twitter:description" content="Finde und buche die besten Dienstleister für Massage, Kosmetik und Friseur in deiner Nähe.">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "BooRelax",
+    "url": "https://boorelax.de/",
+    "description": "Vermittlung von Dienstleistungen wie Massage, Kosmetik und Friseur.",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://boorelax.de/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "BooRelax",
+    "url": "https://boorelax.de/",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "info@meine-massage.de",
+      "contactType": "customer service",
+      "availableLanguage": "German"
+    }
+  }
+  </script>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💆</text></svg>">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    :root { --color-bg: #fafafa; --color-surface: #ffffff; --color-text: #1a1a2e; --color-text-muted: #6b7280; --color-primary: #2d6a4f; --color-primary-light: #40916c; --color-primary-bg: #d8f3dc; --color-accent: #b7e4c7; --color-border: #e5e7eb; --font-sans: 'Segoe UI', system-ui, -apple-system, sans-serif; --max-width: 1100px; --radius: 12px; }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font-sans); background: var(--color-bg); color: var(--color-text); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+    nav { position: fixed; top: 0; left: 0; right: 0; background: rgba(255,255,255,0.92); backdrop-filter: blur(12px); border-bottom: 1px solid var(--color-border); z-index: 100; padding: 0 24px; }
+    .nav-inner { max-width: var(--max-width); margin: 0 auto; display: flex; align-items: center; justify-content: space-between; height: 64px; }
+    .logo { font-size: 1.5rem; font-weight: 700; color: var(--color-primary); text-decoration: none; letter-spacing: -0.5px; }
+    .logo span { color: var(--color-text); }
+    .nav-links { display: flex; gap: 32px; list-style: none; }
+    .nav-links a { text-decoration: none; color: var(--color-text-muted); font-size: 0.95rem; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--color-primary); }
+    .nav-cta { background: var(--color-primary); color: #fff !important; padding: 8px 20px; border-radius: 8px; transition: background 0.2s !important; }
+    .nav-cta:hover { background: var(--color-primary-light) !important; }
+    .menu-toggle { display: none; background: none; border: none; cursor: pointer; padding: 8px; }
+    .menu-toggle span { display: block; width: 24px; height: 2px; background: var(--color-text); margin: 6px 0; transition: 0.3s; }
+    .hero { min-height: 100vh; display: flex; align-items: center; justify-content: center; text-align: center; padding: 120px 24px 80px; background: linear-gradient(160deg, var(--color-bg) 0%, var(--color-primary-bg) 100%); }
+    .hero-content { max-width: 700px; }
+    .hero-badge { display: inline-block; background: var(--color-primary-bg); color: var(--color-primary); font-size: 0.85rem; font-weight: 600; padding: 6px 16px; border-radius: 20px; margin-bottom: 24px; }
+    .hero h1 { font-size: clamp(2.2rem, 5vw, 3.5rem); font-weight: 800; line-height: 1.15; letter-spacing: -1px; margin-bottom: 20px; }
+    .hero h1 em { font-style: normal; color: var(--color-primary); }
+    .hero p { font-size: 1.15rem; color: var(--color-text-muted); max-width: 540px; margin: 0 auto 36px; }
+    .hero-buttons { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+    .btn { display: inline-flex; align-items: center; gap: 8px; padding: 14px 28px; border-radius: 10px; font-size: 1rem; font-weight: 600; text-decoration: none; transition: all 0.2s; cursor: pointer; border: none; }
+    .btn-primary { background: var(--color-primary); color: #fff; box-shadow: 0 4px 14px rgba(45,106,79,0.3); }
+    .btn-primary:hover { background: var(--color-primary-light); transform: translateY(-1px); box-shadow: 0 6px 20px rgba(45,106,79,0.35); }
+    .btn-secondary { background: var(--color-surface); color: var(--color-text); border: 1px solid var(--color-border); }
+    .btn-secondary:hover { border-color: var(--color-primary); color: var(--color-primary); }
+    section { padding: 100px 24px; }
+    .section-inner { max-width: var(--max-width); margin: 0 auto; }
+    .section-header { text-align: center; max-width: 600px; margin: 0 auto 60px; }
+    .section-header h2 { font-size: 2rem; font-weight: 700; margin-bottom: 12px; letter-spacing: -0.5px; }
+    .section-header p { color: var(--color-text-muted); font-size: 1.05rem; }
+    #services { background: var(--color-surface); }
+    .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 28px; }
+    .service-card { background: var(--color-bg); border: 1px solid var(--color-border); border-radius: var(--radius); padding: 36px 28px; transition: all 0.25s; }
+    .service-card:hover { border-color: var(--color-accent); box-shadow: 0 8px 30px rgba(0,0,0,0.06); transform: translateY(-3px); }
+    .service-icon { width: 56px; height: 56px; background: var(--color-primary-bg); border-radius: 14px; display: flex; align-items: center; justify-content: center; font-size: 1.6rem; margin-bottom: 20px; }
+    .service-card h3 { font-size: 1.2rem; font-weight: 700; margin-bottom: 10px; }
+    .service-card p { color: var(--color-text-muted); font-size: 0.95rem; }
+    #how-it-works { background: var(--color-bg); }
+    .steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 40px; counter-reset: step; }
+    .step { text-align: center; counter-increment: step; }
+    .step::before { content: counter(step); display: inline-flex; align-items: center; justify-content: center; width: 48px; height: 48px; background: var(--color-primary); color: #fff; font-weight: 700; font-size: 1.2rem; border-radius: 50%; margin-bottom: 20px; }
+    .step h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 8px; }
+    .step p { color: var(--color-text-muted); font-size: 0.95rem; }
+    #benefits { background: var(--color-surface); }
+    .benefits-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 28px; }
+    .benefit { display: flex; gap: 16px; align-items: flex-start; }
+    .benefit-icon { flex-shrink: 0; width: 44px; height: 44px; background: var(--color-primary-bg); border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; }
+    .benefit h3 { font-size: 1rem; font-weight: 700; margin-bottom: 4px; }
+    .benefit p { color: var(--color-text-muted); font-size: 0.9rem; }
+    #cta { background: linear-gradient(160deg, var(--color-primary) 0%, var(--color-primary-light) 100%); text-align: center; color: #fff; }
+    #cta h2 { font-size: 2rem; font-weight: 700; margin-bottom: 16px; }
+    #cta p { opacity: 0.9; font-size: 1.1rem; max-width: 500px; margin: 0 auto 32px; }
+    .btn-white { background: #fff; color: var(--color-primary); }
+    .btn-white:hover { background: var(--color-primary-bg); transform: translateY(-1px); }
+    footer { background: var(--color-text); color: rgba(255,255,255,0.7); padding: 48px 24px; }
+    .footer-inner { max-width: var(--max-width); margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 20px; }
+    .footer-logo { font-size: 1.2rem; font-weight: 700; color: #fff; }
+    .footer-links { display: flex; gap: 24px; list-style: none; }
+    .footer-links a { color: rgba(255,255,255,0.6); text-decoration: none; font-size: 0.9rem; transition: color 0.2s; }
+    .footer-links a:hover { color: #fff; }
+    .footer-copy { font-size: 0.85rem; width: 100%; text-align: center; margin-top: 24px; }
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .menu-toggle { display: block; }
+      .nav-links.open { display: flex; flex-direction: column; position: absolute; top: 64px; left: 0; right: 0; background: var(--color-surface); padding: 24px; gap: 16px; border-bottom: 1px solid var(--color-border); }
+      .hero { min-height: auto; padding: 120px 24px 60px; }
+      .hero h1 { font-size: 2rem; }
+      section { padding: 60px 24px; }
+      .footer-inner { flex-direction: column; text-align: center; }
+      .footer-links { justify-content: center; }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="nav-inner">
+      <a href="/" class="logo">Boo<span>Relax</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#services">Leistungen</a></li>
+        <li><a href="#how-it-works">So geht's</a></li>
+        <li><a href="#benefits">Vorteile</a></li>
+        <li><a href="#cta" class="nav-cta">Jetzt starten</a></li>
+      </ul>
+      <button class="menu-toggle" onclick="document.getElementById('navLinks').classList.toggle('open')" aria-label="Menü">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <span class="hero-badge">Neu: Jetzt Dienstleister finden</span>
+      <h1>Dein Weg zu <em>Entspannung</em> und <em>Wohlbefinden</em></h1>
+      <p>BooRelax vermittelt dir die besten Massage-, Kosmetik- und Friseur-Dienstleister in deiner Nähe. Einfach finden, buchen, genießen.</p>
+      <div class="hero-buttons">
+        <a href="#cta" class="btn btn-primary">Dienstleister finden</a>
+        <a href="#how-it-works" class="btn btn-secondary">So funktioniert's</a>
+      </div>
+    </div>
+  </section>
+  <section id="services">
+    <div class="section-inner">
+      <div class="section-header">
+        <h2>Unsere Leistungen</h2>
+        <p>Wir vermitteln qualifizierte Dienstleister in drei Bereichen, die dein Wohlbefinden steigern.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">💆</div>
+          <h3>Massage</h3>
+          <p>Von klassischer Massage über Hot Stone bis hin zu Thai-Massage — finde den passenden Therapeuten für deine Bedürfnisse.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">✨</div>
+          <h3>Kosmetik</h3>
+          <p>Gesichtsbehandlungen, Maniküre, Pediküre und mehr. Entdecke Kosmetik-Profis, die dich strahlen lassen.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">💇</div>
+          <h3>Friseur</h3>
+          <p>Schnitt, Farbe, Styling — buche deinen nächsten Friseurtermin bei erfahrenen Stylisten in deiner Nähe.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="how-it-works">
+    <div class="section-inner">
+      <div class="section-header">
+        <h2>So einfach geht's</h2>
+        <p>In drei Schritten zu deinem Wunschtermin.</p>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <h3>Dienstleistung wählen</h3>
+          <p>Wähle aus Massage, Kosmetik oder Friseur und beschreibe, was du suchst.</p>
+        </div>
+        <div class="step">
+          <h3>Anbieter vergleichen</h3>
+          <p>Sieh dir Bewertungen, Preise und Verfügbarkeiten der besten Anbieter an.</p>
+        </div>
+        <div class="step">
+          <h3>Termin buchen</h3>
+          <p>Buche direkt online und freue dich auf dein persönliches Wohlfühl-Erlebnis.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="benefits">
+    <div class="section-inner">
+      <div class="section-header">
+        <h2>Warum BooRelax?</h2>
+        <p>Was uns von anderen unterscheidet.</p>
+      </div>
+      <div class="benefits-grid">
+        <div class="benefit">
+          <div class="benefit-icon">🔒</div>
+          <div>
+            <h3>Geprüfte Anbieter</h3>
+            <p>Jeder Dienstleister wird von uns sorgfältig überprüft, bevor er auf die Plattform kommt.</p>
+          </div>
+        </div>
+        <div class="benefit">
+          <div class="benefit-icon">⚡</div>
+          <div>
+            <h3>Schnelle Buchung</h3>
+            <p>Finde und buche deinen Termin in weniger als zwei Minuten — ganz ohne Anruf.</p>
+          </div>
+        </div>
+        <div class="benefit">
+          <div class="benefit-icon">📍</div>
+          <div>
+            <h3>In deiner Nähe</h3>
+            <p>Entdecke die besten Anbieter direkt in deiner Umgebung.</p>
+          </div>
+        </div>
+        <div class="benefit">
+          <div class="benefit-icon">⭐</div>
+          <div>
+            <h3>Echte Bewertungen</h3>
+            <p>Lies ehrliche Bewertungen von echten Kunden, um den perfekten Anbieter zu finden.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="cta">
+    <div class="section-inner">
+      <h2>Bereit für dein Wohlfühl-Erlebnis?</h2>
+      <p>Melde dich jetzt an und entdecke die besten Dienstleister in deiner Nähe.</p>
+      <a href="mailto:info@meine-massage.de?subject=Interesse%20an%20BooRelax" class="btn btn-white">Kontakt aufnehmen</a>
+    </div>
+  </section>
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-logo">BooRelax</div>
+      <ul class="footer-links">
+        <li><a href="#services">Leistungen</a></li>
+        <li><a href="#how-it-works">So geht's</a></li>
+        <li><a href="mailto:info@meine-massage.de">Kontakt</a></li>
+        <li><a href="/impressum.html">Impressum</a></li>
+        <li><a href="/datenschutz.html">Datenschutz</a></li>
+      </ul>
+      <div class="footer-copy">&copy; 2026 BooRelax. Alle Rechte vorbehalten.</div>
+    </div>
+  </footer>
+</body>
+</html>
